@@ -38,7 +38,6 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   body {
-    margin: ◊[* 1.5 |multiplier|]em auto;
-    font-size: ◊[* 1.5 |multiplier|]em;
+    font-size: ◊[* 1.1 |multiplier|]em;
     }
 }
