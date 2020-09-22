@@ -36,8 +36,3 @@ h1 {
     right: ◊|edge|em;
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: ◊[* 1.1 |multiplier|]em;
-    }
-}
