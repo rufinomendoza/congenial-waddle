@@ -3,11 +3,11 @@
 ◊(define inner 2)
 ◊(define edge (* inner 2))
 ◊(define color "none")
-◊(define multiplier 1.5)
+◊(define multiplier 1.3)
 ◊(define width 500)
 ◊(define mw 90)
 ◊(define font-stack "sans-serif")
- 
+
 body {
     margin: ◊|edge|em auto;
     border: ◊|inner|em double ◊|color|;
@@ -34,4 +34,11 @@ h1 {
  
 #next {
     right: ◊|edge|em;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: ◊[multiply 2 |multiplier|]em auto;
+    font-size: ◊[multiply 2 |multiplier|]em;
+    }
 }
