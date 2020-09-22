@@ -3,7 +3,7 @@
 ◊(define inner 2)
 ◊(define edge (* inner 2))
 ◊(define color "none")
-◊(define multiplier 5)
+◊(define multiplier 1.5)
 ◊(define width 500)
 ◊(define mw 90)
 ◊(define font-stack "sans-serif")
